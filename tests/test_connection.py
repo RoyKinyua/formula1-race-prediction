@@ -69,6 +69,7 @@ expected_tables = [
     "openf1_race_control",
     
 ]
+
 try:
         from src.utils.db import query_df
         df = query_df("""
@@ -88,13 +89,10 @@ try:
 
         if all_good:
             ok("All expected tables found")
-    except Exception as e:
-        fail(f"Schema check failed: {e}")
+except Exception as e:
+    fail(f"Schema check failed: {e}")
 
 
-# ---------------------------------------------------------------------------
-# Test 4: Can we parse a real API response?
-# ---------------------------------------------------------------------------
 
 def test_parsing():
     print("\n[4] Testing data parsing …")
@@ -118,10 +116,6 @@ def test_parsing():
     except Exception as e:
         fail(f"Parsing test failed: {e}")
 
-
-# ---------------------------------------------------------------------------
-# Run all tests
-# ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
     print("=" * 50)
