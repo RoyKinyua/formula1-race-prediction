@@ -1,0 +1,22 @@
+driver_id,driver_name,accuracy,total_races
+antonelli,Andrea Kimi Antonelli,0.7916666666666666,24
+hadjar,Isack Hadjar,0.75,24
+gasly,Pierre Gasly,0.75,24
+russell,George Russell,0.7083333333333334,24
+colapinto,Franco Colapinto,0.6666666666666666,18
+doohan,Jack Doohan,0.6666666666666666,6
+sainz,Carlos Sainz,0.625,24
+max_verstappen,Max Verstappen,0.625,24
+alonso,Fernando Alonso,0.625,24
+bortoleto,Gabriel Bortoleto,0.5833333333333334,24
+lawson,Liam Lawson,0.5416666666666666,24
+tsunoda,Yuki Tsunoda,0.5,24
+leclerc,Charles Leclerc,0.4583333333333333,24
+hamilton,Lewis Hamilton,0.4583333333333333,24
+norris,Lando Norris,0.4583333333333333,24
+piastri,Oscar Piastri,0.4583333333333333,24
+stroll,Lance Stroll,0.391304347826087,23
+hulkenberg,Nico Hülkenberg,0.375,24
+bearman,Oliver Bearman,0.375,24
+ocon,Esteban Ocon,0.2916666666666667,24
+albon,Alexander Albon,0.25,24
