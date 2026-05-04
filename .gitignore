@@ -3,3 +3,6 @@ config/settings.yaml
 data/raw/fastf1_cache
 __pycache__
 .venv
+data/raw
+data/processed
+
