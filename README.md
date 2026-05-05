@@ -88,4 +88,13 @@ set PYTHONPATH=. && streamlit run app/streamlit_app.py
 
 ## Tech Stack
 
-Python 3.11 · uv · PostgreSQL · XGBoost · scikit-learn · FastF1 · Streamlit · Plotly
+- Python 3.11 
+- uv 
+- PostgreSQL 
+- XGBoost 
+- scikit-learn 
+- FastF1
+- OpenF1
+- Ergast
+- Streamlit 
+- Plotly
