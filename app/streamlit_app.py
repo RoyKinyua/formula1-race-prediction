@@ -80,8 +80,8 @@ for col, medal, i in zip([col1, col2, col3], ["1", "2", "3"], [0, 1, 2]):
     row = df_race.iloc[i]
     col.metric(
         label=f"{medal} {row.get('driver_name', row.get('driver_code', ''))}",
-        value=f"{row['Win %']}% win",
-        delta=f"{row['Podium %']}% podium",
+        value=f"{row['Win %']:.1f}% win",
+        delta=f"{row['Podium %']:.1f}% podium",
     )
 
 # Full grid table
